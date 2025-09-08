@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.311f810c.css",
+    "main.js": "/portfolio/static/js/main.a38213a5.js",
+    "static/media/yoga.png": "/portfolio/static/media/yoga.909a01e8d9a912c5bd84.png",
+    "static/media/linkUp.png": "/portfolio/static/media/linkUp.676c382cca7f4e0984c9.png",
+    "static/media/build.png": "/portfolio/static/media/build.c1bc0ae8ab90352a7940.png",
+    "static/media/finance.png": "/portfolio/static/media/finance.d94509772b67dbe58853.png",
+    "static/media/pizza2.png": "/portfolio/static/media/pizza2.9de52049f94170678899.png",
+    "static/media/header-logo3.png": "/portfolio/static/media/header-logo3.403550cfe8ff62b87086.png",
+    "static/media/autoMaster.png": "/portfolio/static/media/autoMaster.30a76ad5b1261e92c970.png",
+    "static/media/serii-fon-2.png": "/portfolio/static/media/serii-fon-2.6fd0eefd59b4cfe473ee.png",
+    "static/media/shop3.png": "/portfolio/static/media/shop3.0e1caeee31ba17ab7c5d.png",
+    "static/media/books.png": "/portfolio/static/media/books.0760cd23b99e6003bdd4.png",
+    "static/media/1.jpg": "/portfolio/static/media/1.ac43d420133c52caec1e.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.311f810c.css.map": "/portfolio/static/css/main.311f810c.css.map",
+    "main.a38213a5.js.map": "/portfolio/static/js/main.a38213a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311f810c.css",
+    "static/js/main.a38213a5.js"
+  ]
+}

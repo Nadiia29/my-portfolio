@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🌐 My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Tech Stack
 
-## Available Scripts
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-In the project directory, you can run:
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📖 Опис
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Це моє портфоліо — колекція проєктів, які я створила під час навчання та практики.  
+Мета — показати мої навички у фронтенд-розробці, зокрема роботу з **HTML, CSS/SCSS, JavaScript, TypeScript, React, Redux**.  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Деплой
 
-### `npm run build`
+👉 [Відкрити портфоліо онлайн](https://nadiia29.github.io/my-portfolio/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Використані технології
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **HTML5 / CSS3 / SCSS** — верстка, адаптивний дизайн  
+- **JavaScript (ES6+)** — динамічний функціонал  
+- **TypeScript** — типізація у React  
+- **React.js** — створення SPA  
+- **Redux Toolkit** — керування станом  
+- **GitHub Pages** — деплой  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Проєкти
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. 🍕 Сайт для замовлення піци  
+- [Live Demo](https://nadiia29.github.io/react-pizza/)  
+- [GitHub](https://github.com/Nadiia29/react-pizza)  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. 🌐 Соціальна мережа (в розробці)  
+- [GitHub](https://github.com/yourusername/project-two)  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. 🛍️ Інтернет-магазин  
+- [Live Demo](https://nadiia29.github.io/Shop_CO/)  
+- [GitHub](https://github.com/Nadiia29/Shop_CO)  
 
-## Learn More
+### 4. 🧘‍♀️ Сторінка любителів йоги  
+- [Live Demo](https://nadiia29.github.io/yoga-mind/)  
+- [GitHub](https://github.com/Nadiia29/yoga-mind)  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5. 🔧 Автомайстерня  
+- [Live Demo](https://nadiia29.github.io/auto-master/)  
+- [GitHub](https://github.com/Nadiia29/auto-master)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 6. 📚 Пошук та рецензії книг  
+- [Live Demo](https://nadiia29.github.io/lidia/)  
+- [GitHub](https://github.com/Nadiia29/lidia)  
 
-### Code Splitting
+### 7. 💼 Фінансові послуги  
+- [Live Demo](https://nadiia29.github.io/relvise/)  
+- [GitHub](https://github.com/Nadiia29/relvise)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 8. 🏗️ Нерухомість + інновації  
+- [Live Demo](https://nadiia29.github.io/real-estate/)  
+- [GitHub](https://github.com/Nadiia29/real-estate)  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📩 Контакти
 
-### Making a Progressive Web App
+- Email: ** nadiia.poshtova@gmail.com**  
+- LinkedIn: [linkedin.com/in/nadiia-poshtova](https://linkedin.com/in/nadiia-poshtova)  
+- GitHub: [github.com/Nadiia29](https://github.com/Nadiia29)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+✨ Створено з ❤️ та бажанням розвиватись у фронтенді

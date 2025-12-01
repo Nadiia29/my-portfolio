@@ -10,6 +10,10 @@ import project5 from '../../assets/image/projects/autoMaster.png';
 import project6 from '../../assets/image/projects/books.png';
 import project7 from '../../assets/image/projects/finance.png';
 import project8 from '../../assets/image/projects/build.png';
+import project9 from '../../assets/image/projects/rockBand.png';
+import project10 from '../../assets/image/projects/vueProject.png';
+import project11 from '../../assets/image/projects/trade.png';
+import project12 from '../../assets/image/projects/auto.png';
 
 const projects = [
 	{
@@ -41,6 +45,7 @@ const projects = [
 		title: '🌐 Соціальна мережа (в розробці)',
 		image: project2,
 		github: 'https://github.com/yourusername/project-two',
+		gitHubFileLink: '',
 		code: `function App() {
 			const { isAuth, setIsAuth } = useAuth();
 
@@ -62,6 +67,7 @@ const projects = [
 		title: '🛍️ Інтернет-магазин',
 		image: project3,
 		github: 'https://nadiia29.github.io/Shop_CO/',
+		gitHubFileLink: 'https://github.com/Nadiia29/Shop_CO',
 		code: `import React from 'react';
 			const ProductCard = ({ product }) => (
  			 <div className="card">
@@ -75,6 +81,7 @@ const projects = [
 		title: '🧘‍♀️ Сторінка любителів йоги',
 		image: project4,
 		github: 'https://nadiia29.github.io/yoga-mind/',
+		gitHubFileLink: 'https://github.com/Nadiia29/yoga-mind',
 		code: `<header id="header" class="header">
                     <div class="header__logo">
                         YogaMind
@@ -91,6 +98,7 @@ const projects = [
 		title: '🔧 Автомайстерня',
 		image: project5,
 		github: 'https://nadiia29.github.io/auto-master/',
+		gitHubFileLink: 'https://github.com/Nadiia29/auto-master',
 		code: `document.getElementById('theme-switch').addEventListener('change', function () {
 				document.body.classList.toggle('light-theme', this.checked);
 					});
@@ -109,6 +117,7 @@ const projects = [
 		title: '📚 Пошук та рецензії книг',
 		image: project6,
 		github: 'https://nadiia29.github.io/lidia/',
+		gitHubFileLink: 'https://github.com/Nadiia29/lidia',
 		code: ` <div class="wrapper">
         <header id="header" class="header">
             <div class="header__container">
@@ -189,6 +198,7 @@ const projects = [
 		title: '💼 Фінансові послуги',
 		image: project7,
 		github: 'https://nadiia29.github.io/relvise/',
+		gitHubFileLink: 'https://github.com/Nadiia29/relvise',
 		code: `<body>
     	<div class="wrapper">
         	<header class="header">
@@ -210,6 +220,7 @@ const projects = [
 		title: '🏗️ Нерухомість + інновації',
 		image: project8,
 		github: 'https://nadiia29.github.io/real-estate/',
+		gitHubFileLink: 'https://github.com/Nadiia29/real-estate',
 		code: `<main class="page">
         <section class="page__main main-block">
             <div class="main-block__container">
@@ -233,6 +244,193 @@ const projects = [
                             <input placeholder="Enter Zipcode to search properties" type="text" class="form-main-block__input">
                             <button type="submit" class="form-main-block__button">Search Now!</button>
                         </form>`,
+	},
+	{
+		id: 9,
+		title: '✨ Квитки на концерт рок-гурту',
+		image: project9,
+		github: 'https://nadiia29.github.io/concerts_rockBand/',
+		gitHubFileLink: 'https://github.com/Nadiia29/concerts_rockBand',
+		code: `document.querySelectorAll('.hero__btn, .buy-ticket-btn').forEach((btn) => {
+		btn.addEventListener('click', () => {
+			const row = btn.closest('.concerts__row');
+
+			if (row) {
+				const city = row.querySelector('.concerts__cell:nth-child(1)').textContent.trim();
+				const seats = row.querySelector('.concerts__cell:nth-child(2)').textContent.trim();
+				const date = row.querySelector('.concerts__cell:nth-child(3)').textContent.trim();
+
+				showPopup(
+					"🎫 Замовлення квитка\n\n",
+				);
+			} else {
+				showPopup("🎫 Перейдіть до розділу 'Концерти', щоб обрати потрібну дату та місто.");
+			}
+		});
+	});`,
+	},
+	{
+		id: 10,
+		title: '✨ Проект на Vue',
+		image: project10,
+		github: 'https://nadiia29.github.io/vue-project/',
+		gitHubFileLink: 'https://github.com/Nadiia29/vue-project',
+		code: `<script lang="ts">
+				import { defineComponent, ref, onMounted } from 'vue';
+				export default defineComponent({
+				name: 'RootApp',
+
+				setup() {
+			const isDark = ref(false);
+
+			onMounted(() => {
+			const savedTheme = localStorage.getItem('theme');
+			if (savedTheme) {
+				isDark.value = savedTheme === 'dark';
+				document.body.classList.toggle('dark-theme', isDark.value);
+				}
+			});
+
+			const toggleTheme = () => {
+			isDark.value = !isDark.value;
+			document.body.classList.toggle('dark-theme', isDark.value);
+			localStorage.setItem('theme', isDark.value ? 'dark' : 'light');
+			};
+
+			return { isDark, toggleTheme };
+			},
+			});
+		</script>
+
+			<template>
+				<div>
+					<nav>
+						<router-link to="/">Home</router-link>
+						<router-link to="/dashboard">User Dashboard</router-link>
+						<button class="theme-toggle" @click="toggleTheme">
+							{{ isDark ? '🌙 Dark' : '☀️ Light' }}
+						</button>
+					</nav>
+
+					<router-view />
+				</div>
+			</template>`,
+	},
+	{
+		id: 11,
+		title: '₿ Trade',
+		image: project11,
+		github: 'https://nadiia29.github.io/test_project_tradeBlade/',
+		gitHubFileLink: 'https://github.com/Nadiia29/test_project_tradeBlade',
+		code: `const cardsArea = document.querySelector('.trades-scroll-container');
+			const range = document.getElementById('trackRange');
+			const info = document.getElementById('trackInfo');
+
+			function updateRangeLimits() {
+				const maxScroll = Math.max(0, cardsArea.scrollWidth - cardsArea.clientWidth);
+				range.dataset.maxScroll = maxScroll;
+				range.disabled = maxScroll === 0;
+				setRangeFromScroll();
+			}
+
+			function setRangeFromScroll() {
+				const maxScroll = Number(range.dataset.maxScroll || 0);
+				const pct = maxScroll ? (cardsArea.scrollLeft / maxScroll) * 100 : 0;
+				range.value = pct;
+				info.textContent = Math.round(pct) + '%';
+			}
+
+			function onRangeInput() {
+				const maxScroll = Number(range.dataset.maxScroll || 0);
+				const pct = Number(range.value);
+				cardsArea.scrollLeft = (pct / 100) * maxScroll;
+				info.textContent = Math.round(pct) + '%';
+			}
+
+			cardsArea.addEventListener('scroll', setRangeFromScroll);
+			range.addEventListener('input', onRangeInput);
+			window.addEventListener('resize', updateRangeLimits);
+
+			updateRangeLimits();
+		`,
+	},
+	{
+		id: 12,
+		title: '🚗 Елітний шоурум',
+		image: project12,
+		github: 'https://nadiia29.github.io/test_project_boxsystem/',
+		gitHubFileLink: 'https://github.com/Nadiia29/test_project_boxsystem',
+		code: `React.useEffect(() => {
+				const ctx = gsap.context(() => {
+					mainTimeline.current = gsap.timeline({ paused: true });
+
+					mainTimeline.current
+						.to(
+							doorLeftRef.current,
+							{ xPercent: -100, duration: 1.5, ease: 'power2.inOut' },
+							'start',
+						)
+						.to(
+							doorRightRef.current,
+							{ xPercent: 100, duration: 1.5, ease: 'power2.inOut' },
+							'start',
+						)
+
+						.to(
+							[heroContentRef.current, enterButtonRef.current, scrollHintRef.current],
+							{ autoAlpha: 0, duration: 1.5, ease: 'power2.inOut' },
+							'start+=0.1',
+						)
+
+						.to(
+							hallBackgroundRef.current,
+							{ opacity: 0, duration: 1.5, ease: 'power2.inOut' },
+							'start+=0.1',
+						)
+
+						.to(
+							insideBackgroundRef.current,
+							{ opacity: 1, duration: 1.5, ease: 'power2.inOut' },
+							'start+=0.2',
+						);
+
+					ScrollTrigger.create({
+						animation: mainTimeline.current,
+						trigger: heroRef.current,
+						start: 'top top',
+						end: '+=500',
+						scrub: 1.2,
+						pin: true,
+						anticipatePin: 1,
+					});
+
+					ScrollTrigger.create({
+						trigger: mainRef.current,
+						start: 'top+=100 top',
+						onEnter: () => {
+							setTimeout(() => {
+								gsap.to(videoContainerRef.current, {
+									opacity: 1,
+									duration: 1.5,
+									ease: 'power2.inOut',
+								});
+							}, 4000);
+						},
+						onLeaveBack: () =>
+							gsap.to(videoContainerRef.current, {
+								opacity: 0,
+								duration: 1.5,
+								ease: 'power2.inOut',
+							}),
+					});
+				}, mainRef);
+
+				return () => {
+					ctx.revert();
+					mainTimeline.current = null;
+				};
+			}, []);
+		`,
 	},
 ];
 

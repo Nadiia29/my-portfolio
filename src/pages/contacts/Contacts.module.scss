@@ -1,4 +1,15 @@
 .wrapper {
-	width: 1024px;
-	padding: 60px;
+	width: 100%;
+	max-width: 1200px;
+	padding: 40px 20px;
+	margin: 0 auto;
+}
+
+#contact a {
+	color: #1f6c94;
+	font-weight: bold;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }

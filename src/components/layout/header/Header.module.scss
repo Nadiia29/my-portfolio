@@ -2,7 +2,7 @@
 
 .header {
 	width: 100%;
-	height: 270px;
+	height: 100%;
 	color: $main_color;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -12,6 +12,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		flex-wrap: wrap;
 		width: 100%;
 		padding: 0 20px;
 
@@ -24,6 +25,40 @@
 			box-shadow: 0 4px 10px #0000001a;
 			backdrop-filter: blur(8px);
 			transition: background-color 0.3s ease;
+
+			@media (max-width: 1024px) {
+				margin: 20px;
+			}
+
+			@media (max-width: 768px) {
+				margin: 10px auto;
+				font-size: 26px;
+				text-align: center;
+			}
+		}
+
+		.ava_block {
+			width: 250px;
+			aspect-ratio: 1;
+			clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+			background-image: url('../../../assets/avatars/1.jpg');
+			background-size: cover;
+			background-position: center;
+			margin: 10px;
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+			@media (max-width: 1024px) {
+				width: 200px;
+			}
+
+			@media (max-width: 768px) {
+				width: 150px;
+				margin: 5px auto;
+			}
+
+			@media (max-width: 480px) {
+				width: 130px;
+			}
 		}
 
 		.nav_header {
@@ -64,6 +99,22 @@
 						width: 100%;
 					}
 				}
+			}
+
+			@media (max-width: 1024px) {
+				margin: 20px;
+			}
+
+			@media (max-width: 900px) {
+				margin: 10px auto;
+				justify-content: center;
+			}
+
+			@media (max-width: 500px) {
+				margin: 0 auto;
+				flex-wrap: wrap;
+				gap: 10px;
+				justify-content: center;
 			}
 		}
 	}

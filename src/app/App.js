@@ -8,8 +8,8 @@ function App() {
 	return (
 		<div className={styles.wrapper}>
 			<Header />
+
 			<main className={styles.main_box}>
-				<div className={styles.ava_block}></div>
 				<About />
 				<Projects />
 				<Contacts />

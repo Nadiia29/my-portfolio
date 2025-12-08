@@ -8,6 +8,8 @@ const Header = () => {
 		<header className={styles.header} style={{ backgroundImage: `url(${backgroundImage})` }}>
 			<div className={styles.wrapper}>
 				<h1>Portfolio by Nadiia Poshtova</h1>
+				<div className={styles.ava_block}></div>
+
 				<nav className={styles.nav_header}>
 					<Link to='about' smooth={true} duration={500}>
 						Про мене

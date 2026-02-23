@@ -3,17 +3,18 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import styles from './Projects.module.scss';
 import project1 from '../../assets/image/projects/pizza2.png';
-import project2 from '../../assets/image/projects/linkUp.png';
+import project2 from '../../assets/image/projects/Coffe_heart.png';
 import project3 from '../../assets/image/projects/shop3.png';
 import project4 from '../../assets/image/projects/yoga.png';
 import project5 from '../../assets/image/projects/autoMaster.png';
 import project6 from '../../assets/image/projects/books.png';
 import project7 from '../../assets/image/projects/finance.png';
 import project8 from '../../assets/image/projects/build.png';
-import project9 from '../../assets/image/projects/rockBand.png';
+import project9 from '../../assets/image/projects/layout_page.png';
 import project10 from '../../assets/image/projects/vueProject.png';
 import project11 from '../../assets/image/projects/trade.png';
 import project12 from '../../assets/image/projects/auto.png';
+import project14 from '../../assets/image/projects/linkUp.png';
 
 const projects = [
 	{
@@ -42,25 +43,21 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: '🌐 Соціальна мережа (в розробці)',
+		title: "☕❤️ Coffee Heart - Кав'ярня",
 		image: project2,
-		github: 'https://github.com/yourusername/project-two',
-		gitHubFileLink: '',
-		code: `function App() {
-			const { isAuth, setIsAuth } = useAuth();
+		github: 'https://nadiia29.github.io/coffee_heart/',
+		gitHubFileLink: 'https://github.com/Nadiia29/coffee_heart/blob/main/js/main.js',
+		code: `function setActiveButton(activeButton) {
+				filterButtons.forEach((btn) => btn.classList.remove('active'));
+				activeButton.classList.add('active');
+			}
 
-	useEffect(() => {
-				setIsAuth(checkAuth());
-				}, [setIsAuth]);
+			function filterMenu(category) {
+				const filtered =
+					category === 'all' ? menuItems : menuItems.filter((item) => item.category === category);
 
-			return (
-				<div className={styles.app}>
-					<Header />
-				{isAuth && <Sidebar />}
-
-				<main className={styles.main}>
-					<Routes>
-						<Route path='/login' element={<LoginPage />} />`,
+				renderMenu(filtered);
+			}`,
 	},
 	{
 		id: 3,
@@ -247,27 +244,19 @@ const projects = [
 	},
 	{
 		id: 9,
-		title: '✨ Квитки на концерт рок-гурту',
+		title: '✨ адаптивний-UI-макет',
 		image: project9,
-		github: 'https://nadiia29.github.io/concerts_rockBand/',
-		gitHubFileLink: 'https://github.com/Nadiia29/concerts_rockBand',
-		code: `document.querySelectorAll('.hero__btn, .buy-ticket-btn').forEach((btn) => {
-		btn.addEventListener('click', () => {
-			const row = btn.closest('.concerts__row');
-
-			if (row) {
-				const city = row.querySelector('.concerts__cell:nth-child(1)').textContent.trim();
-				const seats = row.querySelector('.concerts__cell:nth-child(2)').textContent.trim();
-				const date = row.querySelector('.concerts__cell:nth-child(3)').textContent.trim();
-
-				showPopup(
-					"🎫 Замовлення квитка\n\n",
-				);
-			} else {
-				showPopup("🎫 Перейдіть до розділу 'Концерти', щоб обрати потрібну дату та місто.");
-			}
-		});
-	});`,
+		github: 'https://nadiia29.github.io/responsive-ui-layout/',
+		gitHubFileLink: 'https://github.com/Nadiia29/responsive-ui-layout/blob/main/index.html',
+		code: ` Grid MORE button
+	
+		if (moreLink && gridContainer) {
+			moreLink.addEventListener('click', (e) => {
+				e.preventDefault();
+				gridContainer.classList.add('show-all');
+				moreLink.style.display = 'none';
+			});
+		}`,
 	},
 	{
 		id: 10,
@@ -431,6 +420,29 @@ const projects = [
 				};
 			}, []);
 		`,
+	},
+
+	{
+		id: 14,
+		title: '🌐 Соціальна мережа (в розробці)',
+		image: project14,
+		github: 'https://github.com/yourusername/project-two',
+		gitHubFileLink: '',
+		code: `function App() {
+			const { isAuth, setIsAuth } = useAuth();
+
+	useEffect(() => {
+				setIsAuth(checkAuth());
+				}, [setIsAuth]);
+
+			return (
+				<div className={styles.app}>
+					<Header />
+				{isAuth && <Sidebar />}
+
+				<main className={styles.main}>
+					<Routes>
+						<Route path='/login' element={<LoginPage />} />`,
 	},
 ];
 

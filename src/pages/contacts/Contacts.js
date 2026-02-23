@@ -9,6 +9,7 @@ const Contacts = () => {
 				Напишіть мені на пошту:
 				<a href='nadiia.poshtova@gmail.com'> nadiia.poshtova@gmail.com</a>
 			</p>
+
 			<p>
 				Профіль у LinkedIn:{' '}
 				<a
@@ -18,6 +19,14 @@ const Contacts = () => {
 				>
 					{' '}
 					https://www.linkedin.com/in/nadiia-poshtova-73b59224b/
+				</a>
+			</p>
+
+			<p>
+				Мої роботи на GitHub:
+				<a href='https://github.com/Nadiia29?tab=repositories' target='blank'>
+					{' '}
+					https://github.com/Nadiia29?tab=repositories
 				</a>
 			</p>
 		</section>

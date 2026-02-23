@@ -20,9 +20,9 @@
 			font-size: 32px;
 			margin: 0 40px;
 			padding: 10px 20px;
-			background-color: #ffffff2e;
+			background-color: #ffffff7a;
 			border-radius: 12px;
-			box-shadow: 0 4px 10px #0000001a;
+			box-shadow: 0 4px 10px #3b3131d9;
 			backdrop-filter: blur(8px);
 			transition: background-color 0.3s ease;
 
@@ -38,14 +38,13 @@
 		}
 
 		.ava_block {
-			width: 250px;
+			width: 260px;
 			aspect-ratio: 1;
-			clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+			clip-path: polygon(50% -5%, 93% 20%, 93% 78%, 50% 100%, 7% 78%, 7% 22%);
 			background-image: url('../../../assets/avatars/1.jpg');
 			background-size: cover;
 			background-position: center;
 			margin: 10px;
-			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 
 			@media (max-width: 1024px) {
 				width: 200px;
@@ -64,13 +63,13 @@
 		.nav_header {
 			display: flex;
 			gap: 20px;
-			background-color: #ffffff43;
+			background-color: #ffffff7a;
 			padding: 10px 20px;
 			margin: 0 40px;
 			cursor: pointer;
 			border-radius: 12px;
 			backdrop-filter: blur(8px);
-			box-shadow: 0 4px 10px #0000001a;
+			box-shadow: 0 4px 10px #3b3131d9;
 			transition: background-color 0.3s ease;
 
 			a {

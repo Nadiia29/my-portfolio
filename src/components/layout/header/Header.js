@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<header className={styles.header} style={{ backgroundImage: `url(${backgroundImage})` }}>
 			<div className={styles.wrapper}>
-				<h1>Порфоліо - Надії Поштової</h1>
+				<h1>Портфоліо - Надії Поштової</h1>
 				<div className={styles.ava_block}></div>
 
 				<nav className={styles.nav_header}>

@@ -7,7 +7,7 @@ import project2 from '../../assets/image/projects/Coffe_heart.png';
 import project3 from '../../assets/image/projects/shop3.png';
 import project4 from '../../assets/image/projects/yoga.png';
 import project5 from '../../assets/image/projects/autoMaster.png';
-import project6 from '../../assets/image/projects/books.png';
+import project6 from '../../assets/image/projects/fixUx.png';
 import project7 from '../../assets/image/projects/finance.png';
 import project8 from '../../assets/image/projects/build.png';
 import project9 from '../../assets/image/projects/layout_page.png';
@@ -15,6 +15,7 @@ import project10 from '../../assets/image/projects/vueProject.png';
 import project11 from '../../assets/image/projects/trade.png';
 import project12 from '../../assets/image/projects/auto.png';
 import project14 from '../../assets/image/projects/linkUp.png';
+import project15 from '../../assets/image/projects/books.png';
 
 const projects = [
 	{
@@ -111,84 +112,20 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: '📚 Пошук та рецензії книг',
+		title: '📊 UX-аналітика',
 		image: project6,
-		github: 'https://nadiia29.github.io/lidia/',
-		gitHubFileLink: 'https://github.com/Nadiia29/lidia',
-		code: ` <div class="wrapper">
-        <header id="header" class="header">
-            <div class="header__container">
-                <a href="#header" class="header__logo">
-                    <img src="img/Logo.png" alt="logo">
-                </a>
-
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#features" class="menu__link">Feature</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="page">
-            <section class="page__hero hero">
-                <div class="hero__container">
-                    <div class="hero__content content-hero">
-                        <h1 class="content__title">
-                            Search & review your <a href="">fav book</a> effortlessly
-                        </h1>
-                        <a href="#" class="content-hero__button">
-                            Start now →
-                        </a>
-                    </div>
-
-                    <div class="hero__images images-hero">
-                        <a href="#" class="images-hero__item  image-hero__item--01">
-                            <img src="img/header_hero/hero_1.jpg" class="image-hero__image" alt="image">
-                        </a>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="services" class="page__services services">
-                <div class="services__container">
-                    <div class="services__header-block header-block header-block--margin">
-                        <div class="header-block__label">
-                            SERVICES
-                        </div>
-
-                        <h2 class="header-block__title">
-                            The Services for You
-                        </h2>
-                    </div>
-
-                    <div class="services__items">
-                        <article class="services__item">
-                            <div class="services__image">
-                                <img src="img/services/1.jpg" class="services__picture" alt="image">
-                            </div>
-
-                        </article>
-
-                    </div>
-                </div>
-            </section>
-
-            <section id="location" class="page__location location">
-                <div class="location__container">
-                    <div class="location__header-block header-block header-block--margin">
-                        <div class="header-block__label">LOCATION</div>
-                        <h2 class="header-block__title">Our Library Location</h2>
-                    </div>
-
-                    <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50310.60044109002!2d23.73833935!3d37.9908372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067043f1%3A0x2736354576668ddd!2z0JDRhNC40L3Riywg0JPRgNC10YbQuNGP!5e0!3m2!1sru!2sua!4v1721660724855!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer__body">
-                <div class="footer__container">`,
+		github: 'https://nadiia29.github.io/ux-detector-ang/',
+		gitHubFileLink:
+			'https://github.com/Nadiia29/ux-detector-ang/blob/main/src/app/pages/home/home.component.html',
+		code: ` @Component({
+				selector: 'app-root',
+				imports: [RouterOutlet],
+				template: '<router-outlet></router-outlet>',
+				styleUrls: ['./app.css'],
+			})
+			export class App {
+  				protected readonly title = signal('FixMyUX');
+	}`,
 	},
 	{
 		id: 7,
@@ -443,6 +380,88 @@ const projects = [
 				<main className={styles.main}>
 					<Routes>
 						<Route path='/login' element={<LoginPage />} />`,
+	},
+
+	{
+		id: 15,
+		title: '📚 Пошук та рецензії книг',
+		image: project15,
+		github: 'https://nadiia29.github.io/lidia/',
+		gitHubFileLink: 'https://github.com/Nadiia29/lidia',
+		code: ` <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__container">
+                <a href="#header" class="header__logo">
+                    <img src="img/Logo.png" alt="logo">
+                </a>
+
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#features" class="menu__link">Feature</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__hero hero">
+                <div class="hero__container">
+                    <div class="hero__content content-hero">
+                        <h1 class="content__title">
+                            Search & review your <a href="">fav book</a> effortlessly
+                        </h1>
+                        <a href="#" class="content-hero__button">
+                            Start now →
+                        </a>
+                    </div>
+
+                    <div class="hero__images images-hero">
+                        <a href="#" class="images-hero__item  image-hero__item--01">
+                            <img src="img/header_hero/hero_1.jpg" class="image-hero__image" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="services" class="page__services services">
+                <div class="services__container">
+                    <div class="services__header-block header-block header-block--margin">
+                        <div class="header-block__label">
+                            SERVICES
+                        </div>
+
+                        <h2 class="header-block__title">
+                            The Services for You
+                        </h2>
+                    </div>
+
+                    <div class="services__items">
+                        <article class="services__item">
+                            <div class="services__image">
+                                <img src="img/services/1.jpg" class="services__picture" alt="image">
+                            </div>
+
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="location" class="page__location location">
+                <div class="location__container">
+                    <div class="location__header-block header-block header-block--margin">
+                        <div class="header-block__label">LOCATION</div>
+                        <h2 class="header-block__title">Our Library Location</h2>
+                    </div>
+
+                    <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50310.60044109002!2d23.73833935!3d37.9908372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067043f1%3A0x2736354576668ddd!2z0JDRhNC40L3Riywg0JPRgNC10YbQuNGP!5e0!3m2!1sru!2sua!4v1721660724855!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__body">
+                <div class="footer__container">`,
 	},
 ];
 

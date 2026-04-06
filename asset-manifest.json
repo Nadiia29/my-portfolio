@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.6bc1aad1.css",
-    "main.js": "/my-portfolio/static/js/main.bcd50233.js",
+    "main.js": "/my-portfolio/static/js/main.b310735f.js",
     "static/media/Coffe_heart.png": "/my-portfolio/static/media/Coffe_heart.bc00f50279fa8d516d90.png",
     "static/media/auto.png": "/my-portfolio/static/media/auto.693c15c09f5ebe682a3f.png",
     "static/media/yoga.png": "/my-portfolio/static/media/yoga.909a01e8d9a912c5bd84.png",
@@ -15,15 +15,16 @@
     "static/media/serii-fon-2.png": "/my-portfolio/static/media/serii-fon-2.6fd0eefd59b4cfe473ee.png",
     "static/media/shop3.png": "/my-portfolio/static/media/shop3.0e1caeee31ba17ab7c5d.png",
     "static/media/books.png": "/my-portfolio/static/media/books.0760cd23b99e6003bdd4.png",
+    "static/media/fixUx.png": "/my-portfolio/static/media/fixUx.bf00084e883c3502940b.png",
     "static/media/1.jpg": "/my-portfolio/static/media/1.ac43d420133c52caec1e.jpg",
     "static/media/layout_page.png": "/my-portfolio/static/media/layout_page.08b69127cee233237438.png",
     "static/media/trade.png": "/my-portfolio/static/media/trade.08317f73245cf63e5560.png",
     "index.html": "/my-portfolio/index.html",
     "main.6bc1aad1.css.map": "/my-portfolio/static/css/main.6bc1aad1.css.map",
-    "main.bcd50233.js.map": "/my-portfolio/static/js/main.bcd50233.js.map"
+    "main.b310735f.js.map": "/my-portfolio/static/js/main.b310735f.js.map"
   },
   "entrypoints": [
     "static/css/main.6bc1aad1.css",
-    "static/js/main.bcd50233.js"
+    "static/js/main.b310735f.js"
   ]
 }

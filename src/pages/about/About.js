@@ -35,7 +35,7 @@ const About = () => {
 				</p>
 				<p>
 					<em>Склала власний навчальний план</em> та опанувала JavaScript, React, Vue 3,
-					HTML, CSS, Git
+					HTML, CSS, Git, Angular
 				</p>
 				<p>Виконала 13 практичних проєктів та на стадії розробки ще декілька.</p>
 				<p>
@@ -48,7 +48,7 @@ const About = () => {
 				<ul className={styles.tekh_skills}>
 					<strong>Технічні навички:</strong>
 					<li>Мови: JavaScript (ES6+), TypeScript (базово)</li>
-					<li>Фреймворки та бібліотеки: React.js, Redux Toolkit, Vue 3</li>
+					<li>Фреймворки та бібліотеки: React.js, Redux Toolkit, Vue 3, Angular</li>
 					<li>Верстка: HTML5, CSS3 (SASS, Tailwind)</li>
 					<li>Робота з API: REST API, Axios</li>
 					<li>Інструменти: Git, GitHub, Webpack, Vite</li>
@@ -72,7 +72,7 @@ const About = () => {
 					<li>аналітичне мислення,</li>
 					<li>готова швидко вчитися та розвиватися в IT</li>
 					<li>
-						оптимістка — вірю, що зміни — це шанс, а навчання — ключ до нових
+						оптимістка - вірю, що зміни - це шанс, а навчання - ключ до нових
 						можливостей
 					</li>
 					<li>ну і як же ми без дедлайнів? на коли треба?))</li>

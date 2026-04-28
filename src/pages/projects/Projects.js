@@ -16,6 +16,7 @@ import project11 from '../../assets/image/projects/trade.png';
 import project12 from '../../assets/image/projects/auto.png';
 import project14 from '../../assets/image/projects/linkUp.png';
 import project15 from '../../assets/image/projects/books.png';
+import project16 from '../../assets/image/projects/mountains.png';
 
 const projects = [
 	{
@@ -112,7 +113,7 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: '📊 UX-аналітика',
+		title: '📊 UX-аналітика, Angular',
 		image: project6,
 		github: 'https://nadiia29.github.io/ux-detector-ang/',
 		gitHubFileLink:
@@ -181,7 +182,7 @@ const projects = [
 	},
 	{
 		id: 9,
-		title: '✨ адаптивний-UI-макет',
+		title: '✨ Адаптивний-UI-макет',
 		image: project9,
 		github: 'https://nadiia29.github.io/responsive-ui-layout/',
 		gitHubFileLink: 'https://github.com/Nadiia29/responsive-ui-layout/blob/main/index.html',
@@ -197,7 +198,7 @@ const projects = [
 	},
 	{
 		id: 10,
-		title: '✨ Проект на Vue',
+		title: '✨ Vue project',
 		image: project10,
 		github: 'https://nadiia29.github.io/vue-project/',
 		gitHubFileLink: 'https://github.com/Nadiia29/vue-project',
@@ -462,6 +463,27 @@ const projects = [
         <footer class="footer">
             <div class="footer__body">
                 <div class="footer__container">`,
+	},
+
+	{
+		id: 16,
+		title: '🏔️ Mountain Guide Service',
+		image: project16,
+		github: 'https://nadiia29.github.io/mountains/',
+		gitHubFileLink: 'https://github.com/Nadiia29/mountains',
+		code: ` const burger = document.querySelector('.burger');
+			const nav = document.querySelector('.nav-links');
+			const navLinks = document.querySelectorAll('.nav-links a');
+
+			function closeMenu() {
+				nav.classList.remove('nav-active');
+				burger.classList.remove('active');
+			}
+
+			function openMenu() {
+				nav.classList.add('nav-active');
+				burger.classList.add('active');
+			}`,
 	},
 ];
 
